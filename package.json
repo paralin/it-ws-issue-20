@@ -1,0 +1,15 @@
+{
+  "name": "it-ws-issue-20",
+  "version": "0.0.1",
+  "description": "issue #20 for alanshaw/it-ws",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=browser"
+  },
+  "dependencies": {
+    "it-ws": "^5.0.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.3"
+  }
+}
